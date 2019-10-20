@@ -1,6 +1,6 @@
 # Dupe File
 
-Adds right-click "Dupe File" to the context menu in the file view:
+Adds right-click "Dupe File" to the context menu in the file view.
 
 ![context menu screenshot](ss-context-menu.png)
 
@@ -47,6 +47,9 @@ This software is released under the terms of the MIT license.
 Thanks to [Dennis Malinochkin](https://mrmlnc.com/) for leading the way with a similar project [Duplicate action](https://github.com/mrmlnc/vscode-duplicate/)
 
 ## Changelog
+
+v1.0.4 - 2019-10-20 @ 12:28:16
+- fix references
 
 v1.0.2 - 2019-10-20 @ 03:20:55
 - initial release

@@ -2,17 +2,17 @@
 	"name": "dupe-file",
 	"displayName": "Dupe File",
 	"description": "Duplicate files from the file context menu. Makes a copy of the file in the same location simlilar to macOS's Finder context menu.",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"publisher": "gieson",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.13.0"
 	},
 	"icon": "icon.png",
-	"homepage": "https://github.com/bobtherobot/file-dupe",
+	"homepage": "https://github.com/bobtherobot/dupe-file",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bobtherobot/file-dupe"
+		"url": "https://github.com/bobtherobot/dupe-file"
 	},
 	"keywords": [
 		"duplicate",
@@ -31,7 +31,7 @@
 	"activationEvents": [
 		"onCommand:dupe.execute"
 	],
-	"main": "./file-dupe.js",
+	"main": "./dupe-file.js",
 	"contributes": {
 		"commands": [
 			{
@@ -66,11 +66,5 @@
 	"devDependencies": {},
 	"dependencies": {
 		"myfs": "^1.0.22"
-	},
-	"scripts": {},
-	"__metadata": {
-		"id": "gieson",
-		"publisherId": "",
-		"publisherDisplayName": "michael gieson"
 	}
 }
