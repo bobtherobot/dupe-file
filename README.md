@@ -48,6 +48,9 @@ Thanks to [Dennis Malinochkin](https://mrmlnc.com/) for leading the way with a s
 
 ## Changelog
 
+v1.0.6 - 2019-10-20 @ 12:45:03
+- fixed honoring settings
+
 v1.0.5 - 2019-10-20 @ 12:28:16
 - fix references
 

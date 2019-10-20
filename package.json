@@ -66,5 +66,10 @@
 	"devDependencies": {},
 	"dependencies": {
 		"myfs": "^1.0.22"
+	},
+	"__metadata": {
+		"id": "981b9dd8-16d5-487d-845c-a3fc8adeff76",
+		"publisherDisplayName": "michael gieson",
+		"publisherId": "aa96e213-cad5-4f1f-87e9-a1d83eec694e"
 	}
 }

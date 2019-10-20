@@ -18,15 +18,19 @@ var myfs = require("myfs");
 function dupe(uri, settings) {
 
 	var newPath = myfs.dupe(uri.path);
-	
-    setTimeout(function(){
 
-        var openPath = vscode.Uri.file(newPath);
-            vscode.workspace.openTextDocument(openPath).then(doc => {
-            vscode.window.showTextDocument(doc);
-        });
+    if(settings.openFileAfterCopy) {
 
-    }, 500); // gaylord timer, cheap and easy.
+        setTimeout(function(){
+
+            var openPath = vscode.Uri.file(newPath);
+                vscode.workspace.openTextDocument(openPath).then(doc => {
+                vscode.window.showTextDocument(doc);
+            });
+    
+        }, 500); // gaylord timer, cheap and easy.
+
+    }
     
 }
 
