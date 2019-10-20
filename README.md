@@ -9,19 +9,17 @@ Adds right-click "Dupe File" to the context menu in the file view:
 The first option:
 
   1. Hover on a file or directory name in explorer.
-  2. Right-click and select `Duplicate file`.
-  3. Enter the new path for the duplicate.
+  2. Right-click and select `Dupe file`.
 
 The second option:
 
   1. Open the file.
-  2. Press `F1` and select `Duplicate file`.
-  3. Enter the new path for the duplicate.
+  2. Press `F1` and select `Dupe file`.
 
 
 ## Supported settings
 
-#### duplicate.openFileAfterCopy
+#### dupe.openFileAfterCopy
 
   * Type: `Boolean`
   * Default: `false`
