@@ -2,7 +2,7 @@
 	"name": "dupe-file",
 	"displayName": "Dupe File",
 	"description": "Duplicate files from the file context menu. Makes a copy of the file in the same location simlilar to macOS's Finder context menu.",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"publisher": "gieson",
 	"license": "MIT",
 	"engines": {
