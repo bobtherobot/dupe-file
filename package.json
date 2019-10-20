@@ -1,0 +1,76 @@
+{
+	"name": "dupe-file",
+	"displayName": "Dupe File",
+	"description": "Duplicate files from the file context menu. Makes a copy of the file in the same location simlilar to macOS's Finder context menu.",
+	"version": "1.0.0",
+	"publisher": "mike gieson",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"icon": "icon.png",
+	"homepage": "https://github.com/bobtherobot/file-dupe",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bobtherobot/file-dupe"
+	},
+	"keywords": [
+		"duplicate",
+		"dupe",
+		"copy",
+		"clone",
+		"file",
+		"directory",
+		"macOS",
+		"context menu",
+		"menu"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:dupe.execute"
+	],
+	"main": "./file-dupe.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "dupe.execute",
+				"title": "Dupe File"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "dupe.execute"
+				}
+			],
+			"editor/title/context": [
+				{
+					"command": "dupe.execute"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Dupe File Configuration",
+			"properties": {
+				"dupe.openFileAfterCopy": {
+					"type": "boolean",
+					"default": false,
+					"description": "Open new file immediately (text-based files only)"
+				}
+			}
+		}
+	},
+	"devDependencies": {},
+	"dependencies": {
+		"myfs": "^1.0.22"
+	},
+	"scripts": {},
+	"__metadata": {
+		"id": "03944bdc-9bcb-4ac2-b9b3-fdb050dd43ff",
+		"publisherId": "c958976e-9702-4f1a-8bdf-26b7bc012dff",
+		"publisherDisplayName": "mike gieson"
+	}
+}
