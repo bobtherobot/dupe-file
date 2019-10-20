@@ -2,7 +2,7 @@
 
 Adds right-click "Dupe File" to the context menu in the file view:
 
-[!context menu screenshot](ss-context-menu.png)
+![context menu screenshot](ss-context-menu.png)
 
 ## Usage
 
