@@ -48,7 +48,7 @@ Thanks to [Dennis Malinochkin](https://mrmlnc.com/) for leading the way with a s
 
 ## Changelog
 
-v1.0.4 - 2019-10-20 @ 12:28:16
+v1.0.5 - 2019-10-20 @ 12:28:16
 - fix references
 
 v1.0.2 - 2019-10-20 @ 03:20:55
