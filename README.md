@@ -50,4 +50,5 @@ Thanks to [Dennis Malinochkin](https://mrmlnc.com/) for leading the way with a s
 
 ## Changelog
 
-v1.0.0 - initial release
+v1.0.0 - 2019-10-20 @ 02:56:23
+- initial release
